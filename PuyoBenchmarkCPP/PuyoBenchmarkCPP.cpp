@@ -22,8 +22,8 @@ int main()
     };
     int count = 5000000;
 
-    PuyoBenchmark::PuyoField field;
-    PuyoBenchmark::Simulator sim = PuyoBenchmark::Simulator(4);
+    PuyoField field;
+    Simulator sim = Simulator(4);
     std::vector<int> popped;
     int chain;
     int score;
